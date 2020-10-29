@@ -1,0 +1,151 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#b3caf2;
+}
+
+.header {
+	text-align:center;
+}
+
+nav{
+	/*background-color:#b3caf2;*/
+	background-color: #0082c6;
+	/*background-color:#ffffff;*/
+}
+
+ul{
+	list-style-type:none;
+	overflow:hidden;
+	padding: 0.5em;
+	margin: 0;
+}
+
+li {
+	float:left;
+	display:inline-block;
+}
+
+li a{
+	color:black;
+	text-decoration:none;
+	text-align: center;
+	padding: 14px 16px;
+	font-weight: bold;
+}
+
+li a:hover:not(.active) {
+      background-color:#b3caf2;
+}
+
+.active {
+   background-color: #ffffff;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ .pozd {
+	background-color: #ffffff;
+    width:65%;
+    margin-left:auto;
+    margin-right:auto;
+	/*top: 50%;
+    left: 50%;	
+	position:absolute;
+	transform: translate(-50%, -50%);*/
+	border: 1px solid black;
+}
+
+.text-pozd{
+	padding:30px;
+    overflow: hidden;
+	/*border-top: 1px solid black;*/
+}
+
+.login {
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+	padding:20px;
+	text-align:center;
+}
+
+.login-inside{
+	padding:10px;
+	border-top: 1px solid black;
+}
+
+.add-inside{
+     padding:10px;
+     border-top: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th, td, a{
+  padding: 8px;
+  color:black;
+  text-decoration:none;
+}
+
+td a:hover{
+	padding: 8px;
+	background-color: #ddd;
+}
+
+footer {
+	padding-top:10px;
+	text-align:center;
+	border-top: 1px solid black; 
+}
